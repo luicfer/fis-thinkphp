@@ -1,0 +1,29 @@
+{
+  "name": "fis-thinkphp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "fist.js",
+  "bin": {
+    "fist": "bin/fist"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luicfer/fis-thinkphp.git"
+  },
+  "author": "luicfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luicfer/fis-thinkphp/issues"
+  },
+  "homepage": "https://github.com/luicfer/fis-thinkphp",
+  "dependencies": {
+    "fis": "^1.9.25",
+    "fis-lint-jshint": "0.0.10",
+    "fis-parser-coffee-script": "0.0.2",
+    "fis-parser-less": "^0.1.3",
+    "fis-postpackager-seajs": "0.0.1"
+  }
+}
