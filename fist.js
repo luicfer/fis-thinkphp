@@ -54,8 +54,8 @@ fis.config.merge({
             },
             {
                 //html文件
-                reg : /^\/tpl\/(.*)\.(html)$/i,
-                release : '/thinkphp.project/tpl/$1.html'
+                reg : /^\/templates\/(.*)\.(html)$/i,
+                release : '/thinkphp.project/$1.html'
             },
             {
                 //readme文件，不要发布
