@@ -1,6 +1,6 @@
 {
   "name": "fis-thinkphp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "fist.js",
   "bin": {
@@ -24,6 +24,7 @@
     "fis-lint-jshint": "0.0.10",
     "fis-parser-coffee-script": "0.0.2",
     "fis-parser-less": "^0.1.3",
-    "fis-postpackager-seajs": "0.0.1"
+    "fis-postpackager-seajs": "0.0.1",
+    "fis-postpackager-simple": "0.0.25"
   }
 }

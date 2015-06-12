@@ -2,6 +2,8 @@ var fis = module.exports = require('fis');
 
 fis.cli.name = "fist";
 fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
+fis.config.set('modules.postpackager', 'simple');
+fis.config.set('settings.postpackager.simple.autoCombine', true);
 fis.config.merge({
     roadmap : {
         path : [
