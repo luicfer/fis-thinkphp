@@ -4,6 +4,11 @@ fis.cli.name = "fist";
 fis.cli.info = fis.util.readJSON(__dirname + '/package.json');
 fis.config.set('modules.postpackager', 'simple');
 fis.config.set('settings.postpackager.simple.autoCombine', true);
+
+//html模板输出目录
+fis.config.set('html.path', 'thinkphp.project');
+
+
 fis.config.merge({
     roadmap : {
         path : [
@@ -57,7 +62,7 @@ fis.config.merge({
             {
                 //html文件
                 reg : /^\/templates\/(.*)\.(html)$/i,
-                release : '/thinkphp.project/$1.html'
+                release : '/${html.path}/$1.html'
             },
             {
                 //readme文件，不要发布
